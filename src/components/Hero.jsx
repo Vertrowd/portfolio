@@ -65,17 +65,18 @@ function Hero() {
             <i className="fas fa-code"></i> View My Work
           </a>
           <a href="#contact" className="btn btn-secondary">
-            <i className="fas fa-envelope"></i> Contact Me
+            <i className="fas fa-envelope"></i> Say Hello
           </a>
         </div>
         
-        <div className="hero-scroll-indicator">
+        
+      </div>
+      <div className="hero-scroll-indicator">
           <a href="#about" className="scroll-down">
             <span>Scroll Down</span>
             <i className="fas fa-chevron-down"></i>
           </a>
         </div>
-      </div>
     </section>
   );
 }

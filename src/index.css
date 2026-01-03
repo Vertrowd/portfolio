@@ -129,6 +129,10 @@
   left: 50%;
   transform: translateX(-50%);
 }
+.hero-scroll-indicator{
+  margin-bottom: 1.5rem;
+}
+
 
 .scroll-down {
   display: flex;
@@ -503,7 +507,11 @@ nav {
     padding: 0.7rem 1.5rem;
   }
 }
-
+@media (max-width: 768px){
+  .hero-scroll-indicator{
+    display: none;
+  }
+}
 
 .hero {
   padding: 8rem 0 5rem;
